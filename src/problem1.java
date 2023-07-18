@@ -20,7 +20,10 @@ public class problem1 {
         System.out.println("Sum : "+sum);
     }*/
 
-    public static void sum(int[] arr){
-        int sum = 0;
+    public static int sum(int[] arr, int N){
+        if(N <= 0) {
+            return 0;
+        }
+           return (sum(arr, N-1)+arr[N-1]);
     }
 }

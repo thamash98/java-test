@@ -10,6 +10,6 @@ public class problem2 {
         for (int i = 0; i < arr2.length;i++){
             list.add(arr2[i]);
         }
-        System.out.println(list.toString());
+        System.out.println("merge array :" +list.toString());
     }
 }
